@@ -8,6 +8,11 @@ namespace TravisTestProj
         {
             return a + b;
         }
+
+        public double Subtraction(double a, double b)
+        {
+            return a - b;
+        }
     }
 
     class Program
