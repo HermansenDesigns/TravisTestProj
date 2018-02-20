@@ -1,0 +1,7 @@
+language: csharp
+dotnet: 2.0.0
+mono: none
+script:
+ - dotnet restore ./TravisTestSolution/
+ - dotnet build ./TravisTestSolution/
+ - dotnet test ./TravisTestSolution/TravisTestSolutionUnitTest/
